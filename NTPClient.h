@@ -77,4 +77,9 @@ class NTPClient {
      * Stops the underlying UDP client
      */
     void end();
+
+    /*
+     * @return time in seconds since Jan. 1, 1970
+     */
+    unsigned long getEpochTime();
 };

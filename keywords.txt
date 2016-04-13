@@ -18,3 +18,4 @@ getMinutes	KEYWORD2
 getSeconds	KEYWORD2
 getFormattedTime	KEYWORD2
 getRawTime	KEYWORD2
+getEpochTime	KEYWORD2

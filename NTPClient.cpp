@@ -107,6 +107,10 @@ unsigned long NTPClient::getRawTime() {
          ((millis() - this->_lastUpdate) / 1000); // Time since last update
 }
 
+unsigned long NTPClient::getEpochTime() {
+  return this->getRawTime();
+}
+
 String NTPClient::getDay() {
   return String(((this->getRawTime()  / 86400L) + 4 ) % 7); //0 is Sunday
 }
